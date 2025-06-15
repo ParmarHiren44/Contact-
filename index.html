@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+   <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff7f5;
+      color: #4d2e1d;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 50px;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .form-box {
+      background-color: #c2a593;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+      max-width: 350px;
+      width: 100%;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px 15px;
+      margin-bottom: 15px;
+      border: 1px solid #7b5e4d;
+      border-radius: 15px;
+      font-size: 1em;
+      background-color: #c2a593;
+      color: #4d2e1d;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #7b5e4d;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #4d2e1d;
+      color: white;
+      font-size: 1em;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3a2317;
+    }
+
+    footer {
+      margin: 40px 0 20px;
+      font-family: monospace;
+      color: #4d2e1d;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Contact Me</h1>
+    <div class="form-box">
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 .<br>
+    All rights reserved.
+  </footer>
+
+</body>
+</html>
